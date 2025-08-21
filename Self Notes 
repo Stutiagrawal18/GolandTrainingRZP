@@ -1,0 +1,3 @@
+1. Initial value : int - 0 , bool - false
+2. we can use var keyword to declare variables both inside main function and inside some self made function
+3. when declaring variables, we can manually give value of each, however if we want to omit the data type, we can do so, in such scenarios the variables will take the type of the values given
