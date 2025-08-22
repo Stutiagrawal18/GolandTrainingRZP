@@ -1,1 +1,7 @@
-package Exercises
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("new")
+}
