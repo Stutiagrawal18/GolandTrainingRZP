@@ -27,13 +27,9 @@ func (f FullTime) CalculateSalary() int {
 	return f.MonthlyPay
 }
 
-// Contractor employee struct
-
 func (c Contractor) CalculateSalary() int {
 	return c.MonthlyPay
 }
-
-// Freelancer employee struct
 
 func (fl Freelancer) CalculateSalary() int {
 	return fl.RatePerHour * fl.HoursWorked
