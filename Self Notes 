@@ -2,3 +2,22 @@
 2. we can use var keyword to declare variables both inside main function and inside some self made function
 3. when declaring variables, we can manually give value of each, however if we want to omit the data type, we can do so, in such scenarios the variables will take the type of the values given
 4. try to stick to int, uint, float64, complex128, unless until specified
+
+/******/
+Atomic counters are integer variables like int32, int64, unit64 whose values can be safely incremented, decremented, or read across multiple goroutines without explicit locking.
+implemented using sync/atomic package, which provides low-level atomic memory primitives.
+
+/*******/
+Single flight is a concept in which multiple goroutines launches the same expensive function and single flight makes the function to execute only once and and all the goroutines can use the ans. of that function
+
+/*******/
+Unit Testing
+A unit test is a small piece of code written to verify a specific, isolated piece of your program, often a single function or method. The goal is to make sure that a "unit" of your code works exactly as you expect it to
+If a function returns an error, you must test both the success and failure cases.
+
+Table-Driven Tests
+Table-driven tests are a best practice in Go. They allow you to test multiple inputs and outputs for a function in a single, clean test function. This makes your tests more readable and easier to maintain.
+
+/*******/
+Mocking
+Mocking is a technique or a tool used within a test. Its purpose is to isolate the code you are testing from its external dependencies. A mock is a fake object that mimics the behavior of a real object, but you control its responses.
