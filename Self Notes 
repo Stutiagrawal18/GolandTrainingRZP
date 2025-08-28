@@ -21,3 +21,8 @@ Table-driven tests are a best practice in Go. They allow you to test multiple in
 /*******/
 Mocking
 Mocking is a technique or a tool used within a test. Its purpose is to isolate the code you are testing from its external dependencies. A mock is a fake object that mimics the behavior of a real object, but you control its responses.
+
+/**********/
+GIN : Gin is an HTTP framework written in Golang
+MARTINI: This was the previous framework that was present in the Golang , but GIN is 40 times faster than MARTINI
+
